@@ -1,0 +1,83 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+    
+}
+
+.hero__title {
+    font-family: &BabesFont;
+}
+
+.container {
+    width: 1441px;
+    margin: 0 auto;
+}
+
+.main__section {
+    background-image: url(../images/bgimage1.svg);
+    width: 1441.5489501953125px;
+    height: 960.2493896484375px;
+    
+}
+
+// header--section
+.main__section {
+    .header {
+        background-color: aqua;
+        max-width: 1200px;
+         display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+}
+
+
+
+.header__nav {
+        &__navlists {
+            list-style-type: none;
+            display: flex;
+            gap: 45px;
+
+        }
+    }
+
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    
+    .sopsors__langs {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 45px;
+    }
+
+}
+
+.sponsor__xbox {
+    background-color: brown;
+}
+
+.header__navlist {
+    .header__navlist__link {
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        background-color: crimson;
+}
+
+.main__section .header .sopsors__langs {
+    background-color: black;
+    list-style-type: none;
+}

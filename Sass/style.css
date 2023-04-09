@@ -1,0 +1,747 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+.hero__title {
+  font-family: .hero__title BabesFont;
+}
+
+.container {
+  color: #1A1917;
+  width: 1441px;
+  margin: 0 auto;
+}
+
+.main__section {
+  background-image: url(../images/bgimage1.svg);
+  width: 1441.5489501953px;
+  height: 960.2493896484px;
+}
+
+.main__section .header {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav__navlists {
+  list-style-type: none;
+  display: flex;
+  gap: 45px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.sponsors__langs .lang {
+  color: #FFFFFF;
+}
+
+.header__navlist .header__navlist__link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+body .main__section .header .sponsors__langs {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 54px;
+  text-transform: uppercase;
+}
+
+/* hero__section */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 156px auto;
+}
+
+.hero .hero__title {
+  color: #FFFFFF;
+  font-family: Bebas Neue;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 3px;
+
+}
+
+.hero .hero__subtitle {
+  color:#FFFFFF;
+  font-family: Bebas Neue;
+font-size: 24px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 2px;
+}
+
+.hero .hero__button{
+  background-color: #FFB548;
+  height: 59.999969482421875px;
+width: 260.3616943359375px;
+border-radius: 7px;
+align-self: center;
+}
+
+.hero__button .hero__link {
+  text-decoration: none;
+  color: #1A1917;
+  font-family: Open Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0px;
+
+}
+
+.hero .hero__story {
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  margin-top: 265px;
+}
+/* hero__section */
+
+
+/* About__section */
+
+.second__section {
+  height: 961px;
+max-width: 1440px;
+background-color: #1A1917;
+}
+
+.second__section .royale__game__text {
+  color: #FFFFFF;
+  font-family: Bebas Neue;
+font-size: 24px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 2px;
+/* text-align: left; */
+}
+
+.second__section .RoyalGame__title {
+  color: #FFFFFF;
+  font-family: Bebas Neue;
+font-size: 80px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 3px;
+text-transform: uppercase;
+height: 153px;
+width: 410px;
+}
+
+
+.hr {
+  background-color: white; 
+  height: 3px;
+  width: 711px;
+}
+
+.second__section .RoyalGame__subtitle {
+  color: #FFFFFF;
+  font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+
+height: 173.57232666015625px;
+width: 364.85052490234375px;
+}
+
+
+.second__section .about__royale__game {
+  padding: 256px auto 276px 23px;
+}
+
+.second__section .about__game__second .game__first__image {
+  position: relative;
+  z-index: 4;
+  right: -800px;
+  top: -300px;
+}
+
+.second__section .about__game__second .game__second__image {
+  position: relative;
+  z-index: 3;
+  top: -320px;
+  right: -400px;
+}
+
+.second__section .about__game__second .game__third__image {
+  position: relative;
+  z-index: 2;
+  top: -350px;
+}
+
+.second__section .about__game__second .game__third__image:hover {
+  z-index: 4;
+  transition: 1s;
+}
+
+.second__section .about__game__second .game__second__image:hover {
+  z-index: 4;
+  transition: 1s;
+}
+
+
+/* About__section */
+
+/* features--section */
+
+.gameFeatures {
+  height: 960.2700805664062px;
+  width: 1443.5484619140625px;
+  background-image: url(../images/Group.svg);
+}
+
+.features__box .features__text {
+  font-family: Bebas Neue;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.features__box .features__title {
+  color: #FFFFFF;
+  font-family: Bebas Neue;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 3px;
+}
+
+.features__box .features__subtitle {
+  color: #FFFFFF;
+  font-family: Bebas Neue;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 2px;
+}
+
+.features__box .featuresSubtitle2 {
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  height: 77.70355224609375px;
+  width: 362.52117919921875px;
+}
+
+.features__box {
+  width: 511.96px;
+  height: 919.1px;
+  padding-top: 233px;
+  margin-left: 788px;
+}
+
+/* features--section  */
+
+
+/* SystemRequirements */
+
+.SystemRequirements {
+  background-image: url(../images/bg\ image\ 4.svg);
+  height:960px;
+}
+
+.SystemRecuirement__Box {
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 800px;
+height: 200px;
+}
+
+
+.SystemRequirements .SystemRecuirement__Text {
+  margin: 157px auto auto auto;
+  color: #FFFFFF;
+  font-family: Bebas Neue;
+font-size: 24px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 2px;
+height: 27.672561645507812px;
+width: 352.8627014160156px;
+}
+.SystemRequirements .SystemRecuirement__title {
+  padding: 0;
+  margin-top: 8px;
+  color: #FFFFFF;
+  font-family: Bebas Neue;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-align: left;
+  height: 73.64273834228516px;
+  width: 633.1895751953125px;
+}
+
+.SystemRecuirement__table {
+  color: #FFFFFF;
+}
+
+.recuiremenents__tables {
+width: 573.2px;
+height: 400.69px;
+margin-left: 120.22px;
+margin-top: 188.5px;
+}
+
+.recurements__table__open__sans {
+  font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+}
+.recuirements__table__bebas__neue {
+  font-family: Bebas Neue;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+}
+
+
+
+/* SystemRequirements */
+
+
+/* quotes--section */
+
+.quotes {
+  Height: 960px;
+  background-color:#080A0B;
+  display: flex;
+  justify-content: center;
+}
+
+.quotes .quotes__box {
+  height: 386.943115234375px;
+  width: 437.49993896484375px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 117.39px;
+  margin-top: 303.24px;
+}
+
+.quotes__text {
+  color: #FFFFFF;
+  font-family: Bebas Neue;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 2px;
+}
+
+.quotes__title {
+  color: #FFFFFF;
+  font-family: Bebas Neue;
+font-size: 80px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 3px;
+padding: 0;
+  margin-top: 8px;
+}
+
+.quotes__text1 {
+  color: #FFFFFF;
+  font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+}
+
+.quotes__box .quotes__button {
+  display: inline-block;
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  height: 160px;
+  width: 260px;
+  border-radius: 4px;
+  margin-top: 37px;
+  padding: 19px 29px;
+}
+
+
+.quotes__button .quotes__link {
+  text-decoration: none;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.primary__color {
+  color: #FFFFFF;
+}
+
+
+
+
+.quotes__right__box {
+  width: 493.21px;
+height: 205px;
+margin-left: 227.46px;
+margin-top: 333px;
+}
+
+.text11 {
+  color: #FFFFFF;
+  font-family: Bebas Neue;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 2px;
+}
+
+.text12 {
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  
+}
+
+.text13 {
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.text14 {
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.quotes__section__box1 {
+  height: 182px;
+  width: 500px;
+  display: flex;
+  gap: 19px;
+}
+
+.quotes__section__box12 {
+  height: 182px;
+width: 500px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+/* quotes--section */
+
+
+/* prew--footer--section */
+
+.footer {
+    Height: 960px;
+}
+
+.footer__text {
+  color: #FFFFFF;
+  font-family: Bebas Neue;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 2px;
+}
+
+.footer__title {
+  color: #FFFFFF;
+  font-family: Bebas Neue;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 3px;
+  margin: 0;
+  margin-bottom: 47px;
+}
+
+.footer__text1 {
+  color: #FFFFFF;
+  font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+height: 136px;
+width: 644px;
+margin: 0;
+}
+
+/* .footer__image1 {
+  display: inline-block;
+} */
+
+.footer__float1 {
+  float: right;
+  height: 297px;
+  width: 596px;
+  padding: 199px;
+  background-color: #080A0B;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.subscribe+ input {
+    outline: none;
+    background-color: #FFB548;
+    height: 60px;
+    width: 260px;
+}
+
+/* prew--footer--section */
+
+
+
+/* footer--section */
+
+.footer__wrapper {
+  max-width: 100%;
+  background-color: #080A0B;
+  padding-top: 17px;
+}
+
+.footer__address {
+  margin: 0 auto;
+  background-color: #080A0B;
+width: 1200px;
+min-height: 100px;
+justify-self: center;
+}
+
+.footer__address__box {
+  display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.footer__nav__navlists {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer__navlist {
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer__nav__navlists .footer__navlist a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+.footer__social__networks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  gap: 42px;
+}
+
+.footer__social__networks .footer__social__network a i {
+  color: #FFFFFF;
+}
+
+.footer__social__networks .footer__social__network a i:hover {
+  color: #FF1313;
+}
+
+
+
+
+
+.end__footer__box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #080A0B;
+}
+
+.next__footer__text{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.next__footer__text {
+  color: #FFFFFF;
+}
+
+.next__footer__text1 {
+  color: #FFFFFF;
+}
+
+..empty__wrapper1 {
+  display: none;
+}
+
+
+
+
+@media only screen and (max-width: 576px) {
+  .header__nav, .x--box, .steam {
+    display: none;
+
+     
+  }
+
+  .container {
+    width: 576px;
+  }
+
+  .empty__wrapper1 {
+    display: inline-block;
+    height: 2.5px;
+    width: 23px;
+    border-radius: 3px;
+    color: #FFFFFF;
+  }
+  
+  /* about--section */
+
+  .about__royale__game {
+    display: flex;
+    flex-direction: column;
+
+    
+    
+
+  }
+
+  .second__section .about__game__second .game__second__image {
+    position: relative;
+    z-index: 3;
+    height: 400px;
+    top: -420px;
+    right:-120px;
+  }
+
+  .second__section .about__game__second .game__first__image {
+    position: relative;
+    z-index: 3;
+    height: 400px;
+    top: -20px;
+    right:-120px;
+  }
+
+  .second__section .about__game__second .game__third__image {
+    position: relative;
+    z-index: 3;
+    height: 400px;
+    top: -840px;
+    right:-120px;
+  }
+
+  .gameFeatures {
+    width: 576px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .features__box {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+/* quotes */
+
+.quotes {
+  width: 100%;
+  height: 1634px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__image1 {
+  width: 100%;
+}
+
+.quotes .quotes__box {
+  margin-top: 0;
+  margin-left: 30px;
+}
+
+.quotes__right__box {
+  margin-top: 190px;
+  margin-left: 30px;
+}
+
+.footer__float1 {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 100%;
+  height: 480px;
+}
+
+.footer__wrapper {
+  display: flex;
+  padding: 0;
+}
+
+.footer__address__box {
+  display: flex;
+}
+
+
+}
+
+/* footer--section */
+
+
+
+
+/*# sourceMappingURL=Style.css.map */
